@@ -2,28 +2,23 @@
   <v-app>
     <v-container>
       <v-row class="text-center">
-        <header>
-          <div class="wrapper">
-            <nav>
-              <v-col cols="auto">
-                <RouterLink to="/">
-                  <v-btn color="black">
-                    Home
-                  </v-btn>
-                </RouterLink>
-              </v-col>
+        <v-col cols="auto">
+          <RouterLink to="/">
+            <v-btn color="black">
+              Home
+            </v-btn>
+          </RouterLink>
+        </v-col>
 
-              <RouterLink to="/about">
-                <v-btn
-                    color="black"
-                >
-                  About
-                </v-btn>
-              </RouterLink>
-            </nav>
-          </div>
-        </header>
-
+        <v-col cols="auto">
+          <RouterLink to="/about">
+            <v-btn
+                color="black"
+            >
+              Checkout
+            </v-btn>
+          </RouterLink>
+        </v-col>
 
       </v-row>
     </v-container>
