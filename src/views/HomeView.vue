@@ -142,12 +142,12 @@ export default defineComponent({
     }
 
     onMounted(async () => {
-      axios.get('http://phplaravel-383247-3838729.cloudwaysapps.com/api/allergens')
+      axios.get('https://phplaravel-383247-3838729.cloudwaysapps.com/api/allergens')
             .then(response => {
               allergens.value = response.data;
             });
 
-      axios.get('http://phplaravel-383247-3838729.cloudwaysapps.com/api/ingredients')
+      axios.get('https://phplaravel-383247-3838729.cloudwaysapps.com/api/ingredients')
           .then(response => {
             ingredients.value = response.data;
           });
