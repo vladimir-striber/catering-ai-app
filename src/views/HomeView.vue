@@ -52,14 +52,13 @@
 
     <v-row v-if="!formValid">
       <v-col>
-        <span>The form is not valid</span>
+        <span style="color: red;">The form is not valid</span>
       </v-col>
     </v-row>
 
     <v-row no-gutters class="text-center mt-10 mb-16" >
       <v-col>
         <v-btn
-            class="text-none text-subtitle-1"
             width="200"
             color="black"
             :loading="btnLoading"
