@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container style="width: 800px;">
     <h1 class="mt-16 mb-16">Create a catering proposal</h1>
 
     <v-select

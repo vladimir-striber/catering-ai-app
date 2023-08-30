@@ -1,5 +1,5 @@
 <template>
-  <v-container>
+  <v-container style="width: 800px;">
 
     <v-breadcrumbs :items="breadcrumbItems" class="pl-0">
       <template v-slot:divider>
